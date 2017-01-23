@@ -25,12 +25,4 @@ before_script:
 script:
     - date
     - ls -al
-<<<<<<< Updated upstream
     - make test
-=======
-<<<<<<< HEAD
-    - make test
-=======
-    - make test
->>>>>>> b78ad24e185b29e374831200e9394042f6ac2e22
->>>>>>> Stashed changes
