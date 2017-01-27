@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # ---------------------------
-# projects/collatz/Collatz.py
+# projects/collatz/SphereCollatz.py
 # Copyright (C) 2016
 # Glenn P. Downing
 # ---------------------------
@@ -9,6 +9,8 @@
 # ------------
 # collatz_read
 # ------------
+
+import sys
 
 cache = {}
 # maxes for every 200 numbers
@@ -136,7 +138,14 @@ def collatz_solve(r, w):
     """
     for s in r:
         if not s.strip():
-            continue        
+            continue
         i, j = collatz_read(s)
         v = collatz_eval(i, j)
         collatz_print(w, i, j, v)
+
+# ----
+# main
+# ----
+
+if __name__ == "__main__":
+    collatz_solve(sys.stdin, sys.stdout)
