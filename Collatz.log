@@ -1,0 +1,117 @@
+commit 76e0db866906fcfa2959ffa6bc545b249d0500a5
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Feb 1 10:02:51 2017 -0600
+
+    add Collatz.html (pydoc results) and profile.out (cProfile results)
+
+commit f596a0562fcc967676923e038de5268ad9947c47
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Mon Jan 30 16:58:21 2017 -0600
+
+    Add more acceptance tests
+
+commit 7c2ba968568d1f9622f53e02591600ed1f342d97
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Fri Jan 27 14:38:06 2017 -0600
+
+    Close #11 add SphereCollatz.py after debugging to be accepted on SPOJ and edits to Collatz.py
+
+commit 0c317c1f9432e006337cc2dd73f9407be1dd9437
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Jan 24 18:28:41 2017 -0600
+
+    Stop emails from Travis, modify .gitignore, append coverage results to TestCollatz.out
+
+commit e9d603860f308045636916734cb3fba3fc10a4c1
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Jan 24 17:59:41 2017 -0600
+
+    Close #15 put pycache in gitignore file
+
+commit 54acafaa704698db195543ad7205820107609c16
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Jan 24 17:45:17 2017 -0600
+
+    Fix RunCollatz.out to match fixed tests
+    
+    Use actual values instead of 1
+
+commit c0a464d3e011f81bf33c02dc27002efd729252ed
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Jan 24 17:32:31 2017 -0600
+
+    Add more unit tests to TestCollatz.py
+    
+    Average of 3 unit tests per method
+
+commit 3eb432238c0367db8c411405359f03e8f1c30dfb
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Jan 24 16:45:52 2017 -0600
+
+    Close #8 fix unit tests
+
+commit 445e9db1d70325542948e47d3941a809ea78c1a3
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Jan 24 16:39:49 2017 -0600
+
+    Close #9 add simplest solution to TestCollatz.py
+
+commit 155620549bb249ac67c75eb8945c988fe31356df
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Jan 24 10:48:15 2017 -0600
+
+    Fix makefile
+    
+    Change pydoc3.5 to pydoc3 for Travis
+
+commit dcbfc2ceecf6a83a82afc50c4182c4c5844f5420
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Mon Jan 23 16:00:00 2017 -0600
+
+    Fix .travis.yml file
+
+commit ccd800c9939e23ed4c6dbb100bd8c6c8ef10c513
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Mon Jan 23 15:53:21 2017 -0600
+
+    Clone public repo to private repo
+    
+    Includes all files from Collatz folder
+
+commit b78ad24e185b29e374831200e9394042f6ac2e22
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Mon Jan 23 12:22:04 2017 -0600
+
+    Fix .travis.yml with template on assignement
+
+commit c10957cef72467fa19ab3122c8eb56b5a60706e0
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Fri Jan 20 14:47:00 2017 -0600
+
+    Update .travis.yml
+    
+    Test Travis
+
+commit ac3b23bb873af62ac3706047bdc287d4dcc42365
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Fri Jan 20 14:44:22 2017 -0600
+
+    Update .travis.yml
+    
+    Travis test
+
+commit be6e0bd25c4ec57f63afd156252d8443856a5415
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Fri Jan 20 14:39:30 2017 -0600
+
+    Fix .travis.yml
+    
+    Test Travis again
+
+commit bac4bd85598a01b233f7394b92ce62297db5d29d
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Fri Jan 20 14:31:38 2017 -0600
+
+    Test Travis
+    
+    add .travis.yml file
